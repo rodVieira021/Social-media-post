@@ -30,3 +30,9 @@ body {
 #msg {
     color: red;
 }
+
+
+.btn{
+    display: flex;
+    gap: 20px
+}

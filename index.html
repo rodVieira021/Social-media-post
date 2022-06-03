@@ -5,11 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <title>Document</title>
+    <title>Social Media</title>
   </head>
   <body>
-
-
-    <script src="/script.js"></script>
+    <h1>Social Media App</h1>
+    <div class="container">
+      <div class="left">
+        <form id="form">
+          <label for="">Write your post here</label>
+          <br /><br />
+          <textarea name="" id="input" cols="30" rows="10"></textarea>
+          <br /><br />
+          <div id="msg"></div>
+          <button type="submit">Post</button>
+        </form>
+      </div>
+      <div class="right">
+        <h3>Your post here</h3>
+        <div id="posts"></div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
+  <script src="/script.js"></script>
 </html>
